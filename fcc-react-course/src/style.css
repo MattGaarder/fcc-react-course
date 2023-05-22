@@ -6,3 +6,152 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    color: blue;
+    margin: 0%;
+}
+
+.gray {
+    color: #918e9b;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    padding: 1rem;
+    box-shadow: 5px 15px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 9rem;
+    height: auto;
+    padding: 5px 5px;
+    /* height: auto;  */
+    /* This will maintain the original aspect ratio */
+    /* position: absolute; removed this line */
+    /* margin-left: 0px; this isn't necessary if your logo is the first item in the flex container */
+    /* justify-self: flex-start; this line is not typically used with flexbox */
+}
+
+
+
+.nav-items {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid black;
+    
+}
+
+
+.hero {
+    flex-direction: column;
+    display: flex;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero--photo {
+    max-width: 800px;
+    align-self: center;
+}
+
+.hero-header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+
+
+
+.card {
+    max-width: 20%;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--star {
+    height: 30px;
+    width: 30px;
+}
+
+.card--stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-card {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-card > h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+}
+
+.info-group > img {
+    height: 11px;
+    margin-right: 8px;
+}
+
+.info-group > p {
+    margin-block: 3px;
+    font-size: 12px;
+    color: #2B283A;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+}
